@@ -554,28 +554,47 @@ footer .copyright {
     width: 100%:
   } */
 
-  .feature h2 {
+  #features-section .feature h2 {
     font-size: 1.125rem;
-    line-height: 1.3;
+    line-height: 1.2;
     font-weight: bold;
+    /* margin-top: 2rem; */
+    /* width: 70%; */
   }
 
-  .feature h3 {
+  #features-section .feature h3 {
     font-size: .875rem;
     line-height: 1.4;
-    margin: 0;
+    margin-bottom: 1rem;
+    /* margin-top: 2rem; */
     padding: 0;
   }
   #filters-section .extra {
 
     display: none;
   }
+
   #filters-section img {
     margin: 0;
     padding: 0;
   }
-  #quotes-section {
+  #quotes-section .content {
+    flex-direction: column;
+
 
   }
+  #quotes-section .quote {
+    text-align: center;
+    padding-bottom: 1rem;
+
+
+  }
+  #quotes-section .center {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
 
 }
