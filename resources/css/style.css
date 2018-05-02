@@ -501,9 +501,10 @@ footer .copyright {
   }
   #sign-up-cta {
     position: relative;
-    top: 40px;
+    top: 30px;
     left: 0%;
-    padding: 0 5rem 2.5rem 5rem;
+    padding: 0;
+    /* padding: 0 5rem 2.5rem 5rem; */
     /* border: solid 1px #979797; */
     border-radius: 4px;
     /* background-color: #9dc20b; */
@@ -523,6 +524,7 @@ footer .copyright {
       /* padding: 2rem;
       margin: 0px 1.25rem; */
       background-color: white;
+      padding-bottom: 1.875rem;
     }
     .image-container img {
     width: 100%;
@@ -535,6 +537,12 @@ footer .copyright {
       margin: 0;
       padding: 0;
     }
+    #features-section .feature:first-of-type {
+        flex: 1;
+        /* padding: 2rem;
+        margin: 0px 1.25rem; */
+        background-color: silver;
+      }
     /* #features-section .image-container :first-child {
       background-color: gray;
     } */
